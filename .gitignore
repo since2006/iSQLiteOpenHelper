@@ -1,0 +1,11 @@
+# OS X
+.DS_Store
+
+# Xcode
+*.xcodeproj/*.pbxuser
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Carthage
+Carthage
+
