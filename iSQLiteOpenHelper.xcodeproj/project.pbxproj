@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12263AB1FB18414001A428A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F12263AA1FB18414001A428A /* README.md */; };
 		F145668B1F9BB0EE000C2DDA /* iSQLiteOpenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F145668A1F9BB0EE000C2DDA /* iSQLiteOpenHelper.m */; };
 		F14566921F9BB596000C2DDA /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14566911F9BB596000C2DDA /* FMDB.framework */; };
 		F1921D9E1F9BAF0D00106FAB /* iSQLiteOpenHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F1921D9C1F9BAF0D00106FAB /* iSQLiteOpenHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F12263AA1FB18414001A428A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F145668A1F9BB0EE000C2DDA /* iSQLiteOpenHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSQLiteOpenHelper.m; sourceTree = "<group>"; };
 		F14566911F9BB596000C2DDA /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = Carthage/Build/iOS/FMDB.framework; sourceTree = "<group>"; };
 		F1921D991F9BAF0D00106FAB /* iSQLiteOpenHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iSQLiteOpenHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +45,7 @@
 		F1921D8F1F9BAF0D00106FAB = {
 			isa = PBXGroup;
 			children = (
+				F12263AA1FB18414001A428A /* README.md */,
 				F1921D9B1F9BAF0D00106FAB /* iSQLiteOpenHelper */,
 				F1921D9A1F9BAF0D00106FAB /* Products */,
 				F14566901F9BB596000C2DDA /* Frameworks */,
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12263AB1FB18414001A428A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
